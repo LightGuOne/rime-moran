@@ -2,9 +2,10 @@
 # Generated artifacts #
 #######################
 moran.chars.dict.yaml
+moran_zrmdb.dict.yaml
 opencc/*.ocd2
 opencc/moran_chaifen.txt
-lua/zrmdb.txt
+tools/data/zrmdb.txt
 dist/
 dazhu*.txt
 moran.mdd

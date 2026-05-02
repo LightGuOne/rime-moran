@@ -7,15 +7,17 @@ all: quick dict
 ############
 # 單字信息 #
 ############
-chars_output := moran.chars.dict.yaml opencc/moran_chaifen.txt lua/zrmdb.txt
+chars_output := moran.chars.dict.yaml moran_zrmdb.dict.yaml opencc/moran_chaifen.txt lua/data/zrmdb.txt
 chars: moran.chars.dict.yaml
-zrmdb: lua/zrmdb.txt
 chaifen: opencc/moran_chaifen.txt
+zrmdb: tools/data/zrmdb.txt moran_zrmdb.dict.yaml
 
+tools/data/zrmdb.txt: tools/data/moran_chai.txt tools/gen_zrmdb.py
+	uv run tools/gen_zrmdb.py > $@
+moran_zrmdb.dict.yaml: tools/data/moran_chai.txt tools/gen_zrmdb.py
+	uv run tools/gen_zrmdb.py --dict > $@
 moran.chars.dict.yaml: tools/data/chars.txt tools/data/moran_chai.txt tools/gen_chars.py
 	uv run tools/gen_chars.py > $@
-lua/zrmdb.txt: tools/data/moran_chai.txt tools/gen_zrmdb.py
-	uv run tools/gen_zrmdb.py > $@
 opencc/moran_chaifen.txt: tools/data/moran_chai.txt tools/gen_chaifen_filter.py
 	uv run tools/gen_chaifen_filter.py > $@
 
