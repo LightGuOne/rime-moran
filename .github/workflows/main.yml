@@ -108,7 +108,7 @@ jobs:
     runs-on: ubuntu-24.04
     strategy:
       matrix:
-        schema: [moran, moran_aux, moran.hint, moran.charset]
+        schema: [moran, moran_aux, moran.hint, moran.charset, moran.ijrq]
         lua_version: [5.5, 5.4, 5.3, 5.2, jit]
     steps:
       - name: Checkout
