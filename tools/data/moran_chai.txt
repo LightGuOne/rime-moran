@@ -8423,10 +8423,10 @@
 劐	dh	刂蒦	
 劐	dy	刂又	
 劑	dq	刂齊	
-劒	pd	丿丶	
 劒	rq	刃僉	
 劓	db	刂鼻	
 劔	rq	刄僉	
+劔	rc	刄从	
 劕	dv	刂質	
 劖	di	氵毚	
 劖	dt	刂兔	
@@ -90543,8 +90543,9 @@
 𰅈	md	免刂	auto
 𰅉	jl	井力	auto
 𰅉	lj	力井	auto
-𰅊	dl	旦力	auto
-𰅊	ld	力旦	auto
+𰅊	ol	日力	
+𰅊	dl	旦力	
+𰅊	ld	力旦	
 𰅋	bl	北力	auto
 𰅋	lb	力北	auto
 𰅍	jl	夹力	auto
