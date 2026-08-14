@@ -5,7 +5,8 @@ dict: update-compact-dicts
 all: quick dict
 
 lint-python:
-	uv run --with ruff ruff check tools
+	uv run --group dev ruff check tools
+	uv run --group dev mypy tools
 
 ############
 # 單字信息 #
