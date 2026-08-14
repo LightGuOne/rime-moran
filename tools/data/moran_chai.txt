@@ -89309,8 +89309,9 @@
 𮢸	jw	金攵	auto
 𮢹	ji	金處	auto
 𮢻	jj	金祭	auto
-𮢾	jg	金工	auto
-𮢿	jo	金日	auto
+𮢾	jg	金工	
+𮢿	jg	金戈	
+𮢿	jo	金日	
 𮣀	jy	金雨	auto
 𮣁	jm	金米	auto
 𮣆	jb	金備	auto
@@ -100293,6 +100294,9 @@
 𦸊	ce	艹⺋	
 𡪑	bk	宀丂	
 𤳭	te	田⺋	
+𠀫	ap	一丿	
+𠀫	cp	艹丿	
+
 
 # 待考
 
@@ -100686,7 +100690,6 @@
 #𠀗	ca	艹丆	
 #𠀧	bs	巴三	
 #𠀨	xj	下及	
-#𠀫	aa	一丆	
 #𠀫	ca	艹丆	
 #𠀲	dd	丁多	
 #𠀳	yx	以下	
